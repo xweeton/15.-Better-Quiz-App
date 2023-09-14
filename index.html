@@ -14,7 +14,7 @@
   <div id="question-container">
     <h3 id="questionText"></h3>
   </div>
-  <input type="text" id="answerInput" placeholder="Type your answer here">
+  <input type="text" id="answerInput" placeholder="Type your answer here" onkeydown="checkEnter(event)">
   <br>
   <button id="submit-button" onclick="submitAnswer()">Submit</button>
   <div id="result"></div>
